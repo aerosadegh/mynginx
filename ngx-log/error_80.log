@@ -1,0 +1,1 @@
+2021/10/30 10:20:31 [error] 22#22: *13 open() "/var/www/html/abc" failed (2: No such file or directory), client: 192.168.1.200, server: , request: "HEAD /abc HTTP/1.1", host: "127.0.0.1"
