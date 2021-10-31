@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   ngx:
-    image: nginx:v1
+    image: mynginx:v1
     volumes:
       - ./nginx-data:/var/www/html
       - ./nginx-log:/var/log/nginx
