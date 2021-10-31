@@ -4,10 +4,10 @@ services:
   ngx:
     image: mynginx:v1
     volumes:
-      - ./nginx-data:/var/www/html
-      - ./nginx-log:/var/log/nginx
-      - ./nginx-conf/nginx.conf:/etc/nginx/nginx.conf
-      - ./nginx-conf/:/etc/nginx/conf.d/
+      - ./ngx-data:/var/www/html
+      - ./ngx-log:/var/log/nginx
+      - ./ngx-conf/nginx.conf:/etc/nginx/nginx.conf
+      - ./ngx-conf/:/etc/nginx/conf.d/
 
     ports:
       - "80:80"
